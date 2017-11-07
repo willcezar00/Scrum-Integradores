@@ -1,0 +1,90 @@
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll.config
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.xml
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll.config
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.dll
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.dll
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.xml
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csprojResolveAssemblyReference.cache
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.Primeiro.resources
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csproj.GenerateResource.Cache
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Users\Joao Pedro\Documents\Repositorios\AtividadeIntegradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll.config
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.dll
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.dll
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.xml
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csprojResolveAssemblyReference.cache
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.Primeiro.resources
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csproj.GenerateResource.Cache
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb
+C:\Users\Joao Pedro\Documents\Repositorios\Integradora2\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.AlteracaoProjeto.resources
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll.config
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.Primeiro.resources
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.AlteracaoProjeto.resources
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csproj.GenerateResource.Cache
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.RemovendoStatus.resources
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.StatusString.resources
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll.config
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.ProjetoMensagem.resources
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csproj.GenerateResource.Cache
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.CorrigindoGrafia.resources
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.MensagensNoProjeto.resources
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll.config
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\Dominio.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csprojResolveAssemblyReference.cache
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.ProjetoMensagem.resources
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.CorrigindoGrafia.resources
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Migrations.MensagensNoProjeto.resources
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.Banco.csproj.GenerateResource.Cache
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb

@@ -1,0 +1,280 @@
+﻿@using Bibliotecas.Enum
+@using Web.MVC.Models
+@using Dominio.Entidades
+@using Web.MVC.Models.PainelDecontrole
+@model List<Web.MVC.Models.PainelDecontrole.PainelDeControleModel>
+@{
+    int rowCount = 0;
+    ViewBag.Title = "Index";
+}
+<head>
+    <meta charset="utf-8">
+    <title>Scrum</title>
+    <link rel="icon" href="@Url.Content("~/Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        @{Html.RenderPartial($"~/Views/Shared/_LogoutUsuario.cshtml");}
+        <main>
+            <div class="til-page">
+                Projetos
+                @if (PainelDeControleModel.IsGerente)
+            {
+                    <div class="pull-right">
+                        <a href="@Url.Action($"Cadastrar", $"Projeto")">Adicionar Projeto</a>
+                    </div>
+                }
+            </div>
+            @if (Model.Count == 0)
+            {
+                <div class="row">
+                    <h3>Nenhum projeto por aqui :(</h3>
+                </div>
+            }
+            @foreach (PainelDeControleModel cada in Model)
+            {
+                if (rowCount < 1)
+                {
+                    @Html.Raw("<div class=row>");
+                }
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box-projeto">
+
+                        <!--STATUS DO PROJETO-->
+                        @if (cada.Projeto.Status == StatusProjeto.Andamento.Status)
+                        {
+                            <div class="box-til">
+                                <span class="box-status corVerde"></span>
+                                <a href="@Url.Action("Detalhes", "Projeto", new { projetoId = @cada.Projeto.ProjetoId })">@cada.Projeto.Titulo</a>
+                            </div>
+                        }
+                        else if (cada.Projeto.Status == StatusProjeto.Pausado.Status)
+                        {
+                            <div class="box-til">
+                                <span class="box-status corLaranja">
+                                </span>
+                                <a href="@Url.Action("Detalhes","Projeto", new {projetoId = @cada.Projeto.ProjetoId})">@cada.Projeto.Titulo</a>
+                            </div>
+                        }
+                        else if (cada.Projeto.Status == StatusProjeto.Concluido.Status || cada.Projeto.Status == StatusProjeto.Aprovado.Status)
+                        {
+                            <div class="box-til">
+                                <span class="box-status corVermelho"></span>
+                                <a href="@Url.Action("Detalhes","Projeto", new {projetoId = @cada.Projeto.ProjetoId})">@cada.Projeto.Titulo</a>
+                            </div>
+                        }
+                        else if (cada.Projeto.Status == StatusProjeto.NaoIniciado.Status)
+                        {
+                            <div class="box-til">
+                                <span class="box-status corAzul"></span>
+                                <a href="@Url.Action("Detalhes","Projeto", new {projetoId = @cada.Projeto.ProjetoId})">@cada.Projeto.Titulo</a>
+                            </div>
+                        }
+                        <!--./STATUS DO PROJETO-->
+
+                        <div class="clearfix"></div>
+
+                        <!--BOX INFORMACOES-->
+                        <div class="box-info">
+                            <div><span class="box-des">Status:</span> @cada.Projeto.Status</div>
+                            <div><span class="box-des">Início:</span> @cada.Projeto.DataInicio.ToString("dd/MM/yyyy")</div>
+                            <div><span class="box-des">Términio:</span> @cada.Projeto.DataFim.ToString("dd/MM/yyyy")</div>
+                            <div>
+                                <span class="box-des">Programador(es):</span><br />
+                                @foreach (Programador cadaProgramador in cada.Programadores)
+                                {
+                                    <p>@cadaProgramador.Pessoa.Nome</p>
+                                }
+                                <br />
+                            </div>
+                        </div>
+                        <!--./BOX INFORMACOES-->
+                        <!--BOTOES DO PROJETO-->
+                        @if (PainelDeControleModel.IsGerente)
+                        {
+                            <div class="row">
+                                <div class="form-group">
+                                    <div class="col-xs-6">
+                                        <a href=@Url.Action($"Editar", $"Projeto", new {projetoId = cada.Projeto.ProjetoId}) style="margin-top:35px" value="@cada.Projeto.ProjetoId" class="btn btn-editar btnEditar">
+                                            <img class="icon-btn" src="~/Imagens/icon-edit.png">
+                                            Editar
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <button type="button" value="@cada.Projeto.ProjetoId" class="btn btn-excluir btnExcluir"><img class="icon-btn" src="~/Imagens/icon-excluir.png">Excluir</button>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a href=@Url.Action($"Avaliar", $"Projeto", new {projetoId = cada.Projeto.ProjetoId}) style="margin-top:15px" type="button" value="@cada.Projeto.ProjetoId" class="btn btn-analise btnAnalisar"><img class="icon-btn" src="~/Imagens/icon-plus.png">Analisar</a>
+                                </div>
+                            </div>
+
+                        }
+                        else if (cada.Projeto.Status == StatusProjeto.NaoIniciado.Status || cada.Projeto.Status == StatusProjeto.Pausado.Status)
+                        {
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <button type="button" value="@cada.Projeto.ProjetoId" class="btn btn-analise btnIniciar"><img class="icon-btn" src="~/Imagens/icon-play.png">Iniciar</button>
+                                </div>
+                            </div>
+                        }
+                        else if (cada.Projeto.Status == StatusProjeto.Andamento.Status)
+                        {
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <button type="button" value="@cada.Projeto.ProjetoId" class="btn btn-editar btnPausar"><img class="icon-btn" src="~/Imagens/icon-pause.png">Pausar</button>
+                                </div>
+                                <div class="col-xs-6">
+                                    <button type="button" value="@cada.Projeto.ProjetoId" class="btn btn-excluir btnConcluir">Concluir</button>
+                                </div>
+                            </div>
+                        }
+                        <!--./BOTOES DO PROJETO-->
+                    </div>
+                </div>
+                if (rowCount == 2)
+                {
+                    rowCount = 0;
+                    @Html.Raw("</div>");
+                }
+                else
+                {
+                    rowCount++;
+                }
+            }
+        </main>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+            $(".btnExcluir").on("click",
+                function () {
+                    var projetoId = this.value;
+                    //chame o sweet alert "warning"
+                    swal({
+                        title: "Deseja Deletar este projeto?",
+                        text: "O projeto será deletado para sempre!",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#DD6B55",
+                        confirmButtonText: "Deletar!",
+                        closeOnConfirm: true
+                    },
+                    //se o usuario escolher deletar execute a função
+                        function () {
+                            $.LoadingOverlay("show");
+                            $.ajax({
+                                type: 'POST',
+                                data: { 'projetoId': projetoId },
+                                url: "/Projeto/Excluir",
+                                dataType: 'json',
+                                encode: true
+                            }).done(function (result) {
+                                if (result) {
+                                    $.LoadingOverlay("hide");
+                                    //Chama o sweetAlert
+                                    swal({
+                                        title: "Removido!",
+                                        text: "O projeto foi removido com sucesso",
+                                        type: "success"
+                                    },
+                                    //depois que o botão Ok for pressionado execute a função
+                                        function () {
+                                            $.LoadingOverlay("show");
+                                            setTimeout(window.location.reload(true), 2000);
+                                        });
+                                } else {
+                                    $.LoadingOverlay("hide");
+                                    swal("Erro!", "Ocorreu algum erro ao tentar remover o projeto :)", "error");
+                                }
+                            }).fail(function (xhr, status, error) {
+                                $.LoadingOverlay("hide");
+                                swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                            });
+                        });
+                });
+
+            $(".btnIniciar").on("click",
+                function () {
+                    var projetoId = this.value;
+                    $.LoadingOverlay("show");
+                    $.ajax({
+                        type: 'POST',
+                        data: { 'projetoId': projetoId },
+                        url: "/Projeto/IniciarProjeto",
+                        dataType: 'json',
+                        encode: true
+                    }).done(function (result) {
+                        if (result) {
+                            window.location.reload(true);
+                        } else {
+                            $.LoadingOverlay("hide");
+                            swal("Erro!", "Ops! houve um erro ao tentar iniciar o projeto", "error");
+                        }
+                    }).fail(function (xhr, status, error) {
+                        $.LoadingOverlay("hide");
+                        swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                    });
+                });
+
+            $(".btnPausar").on("click",
+                function () {
+                    var projetoId = this.value;
+                    $.LoadingOverlay("show");
+                    $.ajax({
+                        type: 'POST',
+                        data: { 'projetoId': projetoId },
+                        url: "/Projeto/PausarProjeto",
+                        dataType: 'json',
+                        encode: true
+                    }).done(function (result) {
+                        if (result) {
+                            window.location.reload(true);
+                        } else {
+                            $.LoadingOverlay("hide");
+                            swal("Erro!", "Ops! houve um erro ao tentar pausar o projeto", "error");
+                        }
+                    }).fail(function (xhr, status, error) {
+                        $.LoadingOverlay("hide");
+                        swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                    });
+                });
+
+            $(".btnConcluir").on("click",
+                function () {
+                    var projetoId = this.value;
+                    $.LoadingOverlay("show");
+                    $.ajax({
+                        type: 'POST',
+                        data: { 'projetoId': projetoId },
+                        url: "/Projeto/ConcluirProjeto",
+                        dataType: 'json',
+                        encode: true
+                    }).done(function (result) {
+                        if (result) {
+                            window.location.reload(true);
+                        } else {
+                            $.LoadingOverlay("hide");
+                            swal("Erro!", "Ops! houve um erro ao tentar concluir o projeto", "error");
+                        }
+                    }).fail(function (xhr, status, error) {
+                        $.LoadingOverlay("hide");
+                        swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                    });
+                });
+        });
+
+    </script>
+</body>

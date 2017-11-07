@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Scrum</title>
+    <link rel="icon" href="@Url.Content("~/Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/notify")
+    @Scripts.Render("~/bundles/utils")
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js"></script>
+
+</head>
+
+<body>
+    <div class="login-bg"></div>
+    <div class="login-box">
+        <form class="login" action="">
+            <div class="logo-topo">
+                <img class="img-responsive" src="~/Imagens/login-logo.png" alt="Logo">
+            </div>
+
+            <div class="form-group">
+                <input type="email" required class="form-control input inLogin" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="form-group">
+                <input type="password" required class="form-control input inLogin" id="senha" placeholder="Senha">
+            </div>
+
+            <button type="submit" class="btn btn-send btnLogin">ENTRAR</button>
+        </form>
+
+        <div class="login-cadastrar">
+            <a href="@Url.Action("Cadastrar","Usuario")" class="login-cadastrar">CADASTRAR</a>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".login").on("submit", function (event) {
+            $.LoadingOverlay("show");
+            login(event);
+            return false;
+        });
+    });
+
+    function login() {
+        var email = $("#email").val();
+        var senha = $("#senha").val();
+        var url = "/Login/Index";
+        $.ajax({
+            type: 'POST',
+            data: { 'Email': email, 'Senha': senha },
+            url: url,
+            dataType: 'json',
+            encode: true
+        }).done(function (json) {
+            if (json.isRedirect) {
+                window.location.href = json.redirectUrl;
+            } else {
+                $.LoadingOverlay("hide");
+                sweetAlert('Falha no Login', 'Usuário e/ou senha inválidos','error');
+            }
+        }).fail(function (xhr, status, error) {
+            $.LoadingOverlay("hide");
+            sweetAlert('Erro', 'Algo errado aconteceu :(','error');
+        });
+        return false;
+    }
+
+</script>
+
+

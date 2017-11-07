@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansSemibold";
+    src: url("../fonts/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansItalic";
+    src: url("../fonts/OpenSans-Italic.ttf");
+}
+.error {
+    border:1px solid red !important;
+}
+.success {
+    border:1px solid green !important;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+body {
+    font-size: 16px;
+    color: #333333;
+    font-family: OpenSansLight;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.box-teste {
+    text-align: center;
+    padding: 50px;
+}
+
+.box-teste2 {
+    padding: 50px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.icon-btn {
+    margin-top: -4px;
+    margin-right: 10px;
+}
+
+.btn {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.btn:hover, .btn:focus, .btn:after {
+    color: #fff;
+}
+
+.btn-send {
+    font-size: 18px;
+    height: 50px;
+    background-color: #33cccc !important;
+    color: #fff !important;
+}
+
+.btn-send:hover .btn-send:active, .btn-send.active {
+    background-color: #33dbdb !important;
+    color: #fff !important;
+}
+.btn-send:active {
+    color: #fff!important;
+    background-color: #fff;
+}
+
+.btn-excluir {
+    height: 30px;
+    background-color: #d23915!important;
+}
+
+.btn-excluir:hover {
+    background-color: #dd431e;
+}
+
+.btn-analise {
+    height: 30px;
+    background-color: #24bc2f;
+}
+
+.btn-analise:hover {
+    height: 30px;
+    background-color: #27c232;
+}
+
+.btn-editar {
+    height: 30px;
+    background-color: #33dbdb;
+}
+
+.btn-editar:hover {
+    height: 30px;
+    background-color: #33dbdb;
+}
+
+
+.input {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 40px;
+    font-size: 18px;
+    border-color: #d0c4c4;
+}
+
+.input::placeholder {
+    font-style: normal;
+    color: #ccc;
+}
+
+.text-coment { 
+    min-height: 125px;
+}
+
+
+.container {
+    max-width: 920px;
+}
+
+nav {
+    margin-top: 37px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    max-width: 160px;
+    max-height: 50px;
+ 
+}
+
+.name-user, .btn-logout {
+    font-style: italic;
+}
+
+.btn-logout {
+    font-weight: 600;
+    color: #303030;
+}
+
+.btn-logout:hover {
+    text-decoration: none; 
+}
+
+.til-page {
+    font-size: 20px;
+    border-bottom: 1px solid #d0c4c4;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: OpenSansSemibold;
+}
+
+.add-programador {
+    color: #00cdcd;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 0 20px 0;
+}
+
+.add-programador a, .add-programador a:hover { 
+    color: #00cdcd;
+}
+
+.add-programador img {
+    margin-top: -3px;
+    padding-right: 10px;
+}
+
+
+
+
+.box-projeto {
+    padding: 20px;
+    border: 1px solid #d0c4c4;
+    margin-bottom: 20px;
+}
+
+.box-til {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #d0c4c4;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.box-des {
+    font-weight: 600;
+}
+
+.box-info {
+    line-height: 1.5;
+}
+
+.corAzul { background-color: #00cdcd; }
+.corVerde { background-color: #24bc2f; }
+.corVermelho { background-color: #e00109; }
+.corLaranja { background-color: #ff8c00; }
+
+.box-status {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    margin-top: 4px;
+    margin-right: 10px;
+    float: left;
+}
+
+/**** Login ********************************************************************************/
+.login-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url("../Imagens/login-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+
+.login-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 80px 15px 0 15px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.login {
+    width: 100%;
+}
+
+.logo-topo {
+    width: 240px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.inLogin {
+    background-color: transparent;
+}
+
+.login-cadastrar {
+    margin-top: 60px;
+}
+
+.login-cadastrar a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #33cccc;
+}
+
+.logo-cadastro {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.cad-user {
+    font-size: 20px;
+    margin: 30px 0;
+    font-family: OpenSansSemibold;
+}
+
+.type-user {
+    font-size: 18px;
+    text-align: left;
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    line-height: 35px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #d0c4c4;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 17px;
+    height: 17px;
+    background: #33cccc;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.valid-text {
+    margin-top: 20px;
+}
+
+.detalhes {
+    position: relative
+}
+
+.proj-deltalhes {
+    font-size: 18px;
+}
+
+.proj-deltalhes .til {
+    margin-bottom: 10px;
+}
+
+.dataInicio, .dataFim {
+    float: left;
+    margin-top: 40px;
+}
+
+.dataFim {
+    padding-left: 40px;
+}
+
+.proj-deltalhes .box-des {
+    margin-top: 30px;
+}
+
+.proj-deltalhes .des {
+    margin-bottom: 40px;
+}
+
+.btnDetalhes button {
+    max-width: 175px;
+}
+
+@media (max-width: 768px) {
+    .btnDetalhes button {
+        max-width: 100%;
+    }
+
+    .radio-inline {
+        padding-left: 0;
+    }
+
+    .dataFim {
+        padding-left: 0;
+    }
+}

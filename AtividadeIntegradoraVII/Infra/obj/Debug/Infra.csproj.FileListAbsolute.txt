@@ -1,0 +1,5 @@
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\bin\Debug\Infra.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Integradora 7° periodo\AtividadeIntegradoraVII\Infra\obj\Debug\Infra.pdb

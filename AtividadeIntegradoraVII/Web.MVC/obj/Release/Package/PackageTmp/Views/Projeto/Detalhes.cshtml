@@ -1,0 +1,181 @@
+﻿@using Bibliotecas.Enum
+@using Web.MVC.Models.Mensagem
+@using Web.MVC.Models.PainelDecontrole
+@using Web.MVC.Models.Programador
+@model Web.MVC.Models.Projetos.DetalhesProjetoModel
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>Scrum</title>
+    <link rel="icon" href="@Url.Content("~/Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+
+<body>
+    <div class="container">
+        @{Html.RenderPartial("~/Views/Shared/_LogoutUsuario.cshtml");}
+        <main>
+            <div class="til-page">Nome Projeto</div>
+
+            <div class="row" style="position: relative">
+                <div class="col-xs-12 col-sm-8 col-md-6 detalhes">
+                    <div class="proj-deltalhes">
+                        <div class="til">
+                            <span class="box-des">Status:</span> @Model.DadosProjetoModel.Status
+                        </div>
+
+                        <div class="clearfix"></div>
+                        <div class="dataInicio">
+                            <span class="box-des">Início:</span> @Model.DadosProjetoModel.DataInicio.ToString("dd/MM/yyyy")
+                        </div>
+
+                        <div class="dataFim">
+                            <span class="box-des">Términio:</span> @Model.DadosProjetoModel.DataFim.ToString("dd/MM/yyyy")
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div>
+                            <div class="box-des">
+                                Programador(es):
+                            </div>
+                            @foreach (ProgramadorModel programador in Model.Programadores)
+                            {
+                                <p><span>@programador.Nome </span></p>
+                            }
+                        </div>
+                        <div div class="des">
+                            <div class="box-des">Descrição:</div> @Model.DadosProjetoModel.Descricao
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8 col-md-6 detalhes">
+                            @foreach (MensagemModel mensagem in Model.Mensagens)
+                            {
+                                <div class="clearfix" style="margin-top: 20px"></div>
+                                <div>
+                                    <span class="box-des">@Model.Gerente:</span> @mensagem.Texto
+                                </div>
+                            }
+                            <div class="row">
+
+                                @if (Model.DadosProjetoModel.Status == StatusProjeto.NaoIniciado.Status || Model.DadosProjetoModel.Status == StatusProjeto.Pausado.Status)
+                                {
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <button type="button" value="@Model.DadosProjetoModel.ProjetoId" class="btn btn-analise btnIniciar"><img class="icon-btn" src="~/Imagens/icon-play.png">Iniciar</button>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <button type="button" value="@Model.DadosProjetoModel.ProjetoId" class="btn btn-excluir btnConcluir">Concluir</button>
+                                        </div>
+                                    </div>
+                                }
+                                else if (Model.DadosProjetoModel.Status == StatusProjeto.Andamento.Status)
+                                {
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <button type="button" value="@Model.DadosProjetoModel.ProjetoId" class="btn btn-editar btnPausar"><img class="icon-btn" src="~/Imagens/icon-pause.png">Pausar</button>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <button type="button" value="@Model.DadosProjetoModel.ProjetoId" class="btn btn-excluir btnConcluir">Concluir</button>
+                                        </div>
+
+                                    </div>
+                                }
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-4 col-md-12 text-center" style="margin-top: 20px">
+                                        <div class="btnDetalhes">
+                                            <a href="@Url.Action("Index","PainelDeControle")" type="button" class="btn btn-editar">Voltar ao projetos</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".btnIniciar").on("click",
+                function () {
+                    var projetoId = this.value;
+                    $.LoadingOverlay("show");
+                    $.ajax({
+                        type: 'POST',
+                        data: { 'projetoId': projetoId },
+                        url: "/Projeto/IniciarProjeto",
+                        dataType: 'json',
+                        encode: true
+                    }).done(function (result) {
+                        if (result) {
+                            window.location.reload(true);
+                        } else {
+                            $.LoadingOverlay("hide");
+                            swal("Erro!", "Ops! houve um erro ao tentar iniciar o projeto", "error");
+                        }
+                    }).fail(function (xhr, status, error) {
+                        $.LoadingOverlay("hide");
+                        swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                    });
+                });
+
+            $(".btnPausar").on("click",
+                function () {
+                    var projetoId = this.value;
+                    $.LoadingOverlay("show");
+                    $.ajax({
+                        type: 'POST',
+                        data: { 'projetoId': projetoId },
+                        url: "/Projeto/PausarProjeto",
+                        dataType: 'json',
+                        encode: true
+                    }).done(function (result) {
+                        if (result) {
+                            window.location.reload(true);
+                        } else {
+                            $.LoadingOverlay("hide");
+                            swal("Erro!", "Ops! houve um erro ao tentar pausar o projeto", "error");
+                        }
+                    }).fail(function (xhr, status, error) {
+                        $.LoadingOverlay("hide");
+                        swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                    });
+                });
+
+            $(".btnConcluir").on("click",
+                function () {
+                    var projetoId = this.value;
+                    $.LoadingOverlay("show");
+                    $.ajax({
+                        type: 'POST',
+                        data: { 'projetoId': projetoId },
+                        url: "/Projeto/ConcluirProjeto",
+                        dataType: 'json',
+                        encode: true
+                    }).done(function (result) {
+                        if (result) {
+                            window.location.reload(true);
+                        } else {
+                            $.LoadingOverlay("hide");
+                            swal("Erro!", "Ops! houve um erro ao tentar concluir o projeto", "error");
+                        }
+                    }).fail(function (xhr, status, error) {
+                        $.LoadingOverlay("hide");
+                        swal("Erro!", "Ops! houve um erro com a requisição, por favor tente novamente mais tarde", "error");
+                    });
+                });
+        });
+
+    </script>
+
+</body>

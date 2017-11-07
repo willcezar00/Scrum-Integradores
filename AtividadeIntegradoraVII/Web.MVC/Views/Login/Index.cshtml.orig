@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render("~/bundles/loading")
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js"></script>
+
+</head>
+
+<body>
+    <div class="login-bg"></div>
+<<<<<<< HEAD
+    <div class="loader"></div>
+=======
+>>>>>>> a60bc0a45e9a201f9a2c14b57460161b1c5725a0
+    <div class="login-box">
+        <form class="login" action="">
+            <div class="logo-topo">
+                <img class="img-responsive" src="~/Imagens/login-logo.png" alt="Logo">
+            </div>
+
+            <div class="form-group">
+                <input type="email" required class="form-control input inLogin" id="email" placeholder="E-mail">
+            </div>
+
+            <div class="form-group">
+                <input type="password" required class="form-control input inLogin" id="senha" placeholder="Senha">
+            </div>
+
+            <button type="submit" class="btn btn-send btnLogin">ENTRAR</button>
+            <div style="display:none" id="errorLogin">Usuários e/ou Senha inválidos</div>
+        </form>
+
+        <div class="login-cadastrar">
+            <a href="@Url.Action("Cadastrar","Usuario")" class="login-cadastrar">CADASTRAR</a>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+<<<<<<< HEAD
+    $(document).ready(function () {
+        $(".login").on("submit",function (event) {
+            var email = $("#email").val();
+            var senha = $("#senha").val();
+            var url = "/Login/Index";
+            $.ajax({
+                type: 'POST',
+                data: { 'Email': email, 'Senha': senha },
+                url: url,
+                dataType: 'json',
+                encode: true
+            }).done(function (json) {
+                if (json.isRedirect) {
+                    window.location.href = json.redirectUrl;
+                } else {
+                    $("#errorLogin").show();
+                }
+            }).fail(function (xhr, status, error) {
+                $("#errorLogin").show();
+
+            });
+        });
+    });
+
+=======
+    $(".login").on("submit", function () {
+    })
+>>>>>>> a60bc0a45e9a201f9a2c14b57460161b1c5725a0
+</script>
+
+

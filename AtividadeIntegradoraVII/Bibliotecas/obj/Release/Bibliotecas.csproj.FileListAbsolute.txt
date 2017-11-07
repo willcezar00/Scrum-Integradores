@@ -1,0 +1,9 @@
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\bin\Release\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\bin\Release\Bibliotecas.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\obj\Release\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\obj\Release\Bibliotecas.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\bin\Release\Bibliotecas.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\bin\Release\Bibliotecas.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\obj\Release\Bibliotecas.csprojResolveAssemblyReference.cache
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\obj\Release\Bibliotecas.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\obj\Release\Bibliotecas.pdb

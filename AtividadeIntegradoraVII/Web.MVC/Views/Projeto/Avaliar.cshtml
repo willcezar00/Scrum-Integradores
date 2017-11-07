@@ -1,0 +1,88 @@
+﻿@using Bibliotecas.Enum
+@model Web.MVC.Models.Projetos.DadosProjetoModel
+@{
+    ViewBag.Title = "Validar";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>Scrum</title>
+    <link rel="icon" href="@Url.Content("~/Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+
+
+<body>
+<div class="container">
+    @{Html.RenderPartial($"~/Views/Shared/_LogoutUsuario.cshtml");}
+    <main>
+        <div class="til-page">Análise de Projeto </div>
+
+        <div class="row">
+            <form class="avaliarProjeto">
+                <div class="col-xs-12 col-sm-8 col-md-6">
+                    <input  style="display:none" id="projetoId" value="@Model.ProjetoId"/>
+                    <div class="type-user">
+                        <input id="aprovado" checked class="check" type="radio" name="statusFinal" value="@StatusProjeto.Aprovado.Status">
+                        <label for="aprovado">Aprovar</label>
+
+                        <label class="radio-inline">
+                            <input id="ajustes" class="check" type="radio" name="statusFinal" value="@StatusProjeto.NaoIniciado.Status">
+                            <label for="ajustes">Pedir Ajustes</label>
+                        </label>
+                    </div>
+
+                    <div class="form-group valid-text">
+                        <textarea class="form-control input text-coment" id="mensagem" placeholder="Observação sobre o projeto" rows="3"></textarea>
+                    </div>
+                    @if (Model.Status != StatusProjeto.Aprovado.Status)
+                    {
+                        <button type="submit" class="btn btn-send">ENVIAR</button>
+                    }
+                    else
+                    {
+                        <button type="button" disabled class="btn btn-send">ENVIAR</button>
+                    }
+
+                </div>
+            </form>
+        </div>
+    </main>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(document).on('submit','form.avaliarProjeto',
+            function() {
+                $.LoadingOverlay("show");
+                var url = "/Projeto/Avaliar";
+                var data = {
+                    "Mensagem": $("#mensagem").val(),
+                    "Status": $('input[name="statusFinal"]:checked').val(),
+                    "ProjetoId": $("#projetoId").val()
+                };
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: data,
+                    dataType: "json",
+                    encode: true
+                }).done(function (json) {
+                    if (json.isRedirect) {
+                        window.location.href = json.redirectUrl;
+                    } else {
+                        $.LoadingOverlay("hide");
+                        sweetAlert('', 'Algo errado aconteceu.Tente novamente','error');
+                    }
+                }).fail(function (data) {
+                    sweetAlert('', 'Ocorreu um erro ao efetuar essa operação.','error');
+                    $.LoadingOverlay("hide");
+                }).always(function (data) {
+                });
+                return false;
+            });
+    });
+</script>
+</body>

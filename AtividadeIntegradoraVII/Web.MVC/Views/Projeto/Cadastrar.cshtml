@@ -1,0 +1,169 @@
+﻿@{
+    ViewBag.Title = "Cadastrat";
+}
+@model List<Web.MVC.Models.Programador.ProgramadorModel>
+@using Web.MVC.Models.Programador;
+<head>
+    <meta charset="utf-8">
+    <title>Scrum</title>
+    <link rel="icon" href="@Url.Content("~/Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/notify")
+    @Scripts.Render("~/bundles/utils")
+    <link href="~/Content/selectpicker.css" rel="stylesheet" />
+</head>
+<script src="//cdn.jsdelivr.net/webshim/1.14.5/polyfiller.js"></script>
+<script>
+    webshims.setOptions('forms-ext', {types: 'date'});
+webshims.polyfill('forms forms-ext');
+</script>
+<body>
+    <div class="container">
+        @{Html.RenderPartial($"~/Views/Shared/_LogoutUsuario.cshtml");}
+        <main>
+            <div class="til-page">Adicionar Projeto</div>
+            <form action="" class="cadastrar" method="post">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="form-group">
+                            <input type="text" required class="form-control input" id="nomeProjeto" placeholder="Nome do Projeto">
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <input type="date" required class="form-control input" id="dataInicio" placeholder="Início">
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <input type="date" required class="form-control input" id="dataFim" placeholder="Término">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <select class="selectpicker" id="selectProgramador" data-live-search="true">
+                                        <option selected disabled>Adicionar Programador</option>
+                                        @foreach (ProgramadorModel programador in Model)
+                                        {
+                                            <option value="@programador.ProgramadorId">@programador.Nome</option>
+                                        }
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <button type="button" id="adicionarProgramador" class="btn btn-send">ADICIONAR</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <textarea id="descricao" class="form-control input text-coment" placeholder="Descrição do projeto" rows="3"></textarea>
+                        </div>
+                        <button type="submit" id="cadastrar" class="btn btn-send">CADASTRAR</button>
+                    </div>
+                    <div class="col-sm-5" >
+                        <div class="til-page">
+                            <div >
+                                <a>Programadores do Projeto</a>
+                            </div>
+                        </div>
+                        <div id="programadoresDoProjeto">
+                            
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+<script type="text/javascript">
+    var programadoresId = [];
+    $(document).ready(function(){
+        //Addcionar Programador
+        $("#adicionarProgramador").on("click",
+            function () {
+                var programadorId =  $("#selectProgramador option:selected").val();
+                var nomeProgramador = $("#selectProgramador option:selected").text();
+
+               if ($.inArray(programadorId, programadoresId) !== -1) {
+                    sweetAlert('Erro!','O programador já esta incluso no projeto!',"error");
+                } else {
+                   programadoresId.push(programadorId);
+                   $("#programadoresDoProjeto").append('<div id="programador' + programadorId + '"><p><span style="font-size:20px" value="' + programadorId + '"><b>' + nomeProgramador + '</b><span>' +
+                                                        '         <a class="remover" style="font-size:14px"  href="javascript:void(0)" name="'+programadorId+'">Remover</a>' +
+                                                        '</br></div>');
+                    sweetAlert('Incluido com sucesso!', 'O programador foi incuido no projeto!', "success");
+                }
+            });
+
+        //Remover Programdor
+        $(document).on("click", ".remover", function () {
+            var programadorId = this.name;
+            removeProgramador(programadorId);
+            $("#programador" + programadorId).remove();
+        });
+
+        $(document).on('submit', 'form.cadastrar', function (event) {
+            if ($("#dataInicio").val() > $("#dataFim").val()) {
+                sweetAlert('Bicho BURRO!', 'A data de inicio ta maior que a final ANIMAL!!', 'error');
+                return false;
+            }
+            $.LoadingOverlay("show");
+            sendForm(event);
+            return false;
+        });
+
+        function sendForm(event) {
+            var url = "/Projeto/PostCadastrar";
+            var data = {
+                "Titulo": $("#nomeProjeto").val(),
+                "Descricao": $("#descricao").val(),
+                "DataInicio": $("#dataInicio").val(),
+                "DataFim": $("#dataFim").val(),
+                "ProgramadoresId":programadoresId
+            };
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: data,
+                dataType: "json",
+                encode: true
+            }).done(function (json) {
+                if (json.isRedirect) {
+                    window.location.href = json.redirectUrl;
+                } else {
+                    $.LoadingOverlay("hide");
+                    if (programadoresId.length > 0) {
+                        sweetAlert('Ooops!', 'Algo errado aconteceu.Tente novamente', 'error');
+                    } else {
+                        sweetAlert('Adicione programadores!', 'nenhum programador foi adicionado ao projeto', 'error');
+                    }
+                   
+                }
+            }).fail(function () {
+                sweetAlert('Ooops!', 'Ocorreu um erro ao efetuar essa operação.', 'error');
+                $.LoadingOverlay("hide");
+            }).always(function () {
+            });
+            return false;
+        };
+
+        //Função para remover o Id do programador do array
+        function removeProgramador(programadorId) {
+            for (var i = 0; i < programadoresId.length; i++)
+                if (programadoresId[i] === programadorId) {
+                    programadoresId.splice(i, 1);
+                    break;
+                }
+        };
+    });
+</script>

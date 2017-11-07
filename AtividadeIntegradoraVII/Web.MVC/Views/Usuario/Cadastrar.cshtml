@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewBag.Title = "Cadastrar";
+}
+
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastrar Usuario</title>
+    <link rel="icon" href="@Url.Content("~/Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/notify")
+    @Scripts.Render("~/bundles/utils")
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js"></script>
+
+</head>
+
+
+<body>
+<div class="login-box">
+    <form class="login" action="">
+        <div class="logo-cadastro">
+            <img class="img-responsive" src="~/Imagens/logo.png" alt="Logo">
+        </div>
+
+        <div class="cad-user">CADASTRO</div>
+
+        <div class="form-group">
+            <input type="text" required class="form-control input" id="nome" placeholder="Nome">
+        </div>
+
+        <div class="form-group">
+            <input type="email" required class="form-control input email" id="email" placeholder="E-mail">
+        </div>
+
+        <div class="form-group">
+            <input type="password" required class="form-control input" id="senha" placeholder="Senha">
+        </div>
+
+        <div class="form-group">
+            <input type="text" required class="form-control input cpf" id="cpf" placeholder="____.____.____-__">
+        </div>
+
+        <div id="profissao" class="checkbox-group required">
+            <input checked id="gerente" class="check" type="radio" name="profissao" value="0">
+            <label for="gerente">Gerente</label>
+
+            <label class="radio-inline">
+                <input id="programador" class="check" type="radio" name="profissao" value="1">
+                <label for="programador">Programador</label>
+            </label>
+        </div>
+        <button type="submit" class="btn btn-send">CADASTRAR</button>
+    </form>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var emailValido = false;
+        jQuery("input.cpf")
+            .mask("999.999.999-99");
+
+
+        $(document).ready(function() {
+
+           
+            $(document).on('focusout',
+                'input#email',
+                function () {
+                    $.LoadingOverlay("show");
+                    var email = {'email' :$(this).val()}
+                    $.ajax({
+                        type: "POST",
+                        url: "/Usuario/EmailUnico",
+                        data: email,
+                        dataType: "json",
+                        encode: true
+                    }).done(function(data) {
+                        if (data) {
+                            $.LoadingOverlay("hide");
+                            emailValido = true;
+                            $('#email').css("border", "2px solid green");
+
+                        } else {
+                            $.LoadingOverlay("hide");
+                            $('#email').css("border", "2px solid red");
+                            sweetAlert('Email já cadastrado', 'por favor insira outro email', 'error');
+                            emailValido = false;
+                        }
+                    }).fail(function(data) {
+                        sweetAlert('Falha!', 'Ocorreu um erro ao efetuar essa operação de checkagem de email.');
+                    }).always(function(data) {
+                    });
+                });
+        });
+            $(document).on('submit',
+                'form.login',
+                function(event) {
+                    $.LoadingOverlay("show");
+                    sendForm(event);
+                    return false;
+                });
+
+            function sendForm(event) {
+                var url = "/Usuario/PostCadastrar";
+                var data = {
+                    "nome": $("#nome").val(),
+                    "email": $("#email").val(),
+                    "senha": $("#senha").val(),
+                    "cpf": $("#cpf").val(),
+                    "profissao": $('input[name="profissao"]:checked').val()
+                };
+                if (emailValido) {
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: data,
+                        dataType: "json",
+                        encode: true
+                    }).done(function (json) {
+                        if (json.isRedirect) {
+                            window.location.href = json.redirectUrl;
+                        } else {
+                            $.LoadingOverlay("hide");
+                            sweetAlert('', 'Algo errado aconteceu.Tente novamente','error');
+                        }
+                    }).fail(function (json) {
+                        sweetAlert('', 'Ocorreu um erro ao efetuar essa operação.','error');
+                        $.LoadingOverlay("hide");
+                    }).always(function (data) {
+                    });
+                } else {
+                    $.LoadingOverlay("hide");
+                    $('#email').css("border", "2px solid red");
+                    sweetAlert('Email já cadastrador!!', 'por favor insira outro email e tente novamente', 'error');
+                    $('#email').addClass('.error');
+                }
+                return false;
+            }
+        });
+ 
+</script>

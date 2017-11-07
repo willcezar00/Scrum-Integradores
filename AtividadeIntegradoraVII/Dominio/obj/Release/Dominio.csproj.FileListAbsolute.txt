@@ -1,0 +1,9 @@
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Dominio\bin\Release\Dominio.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Dominio\bin\Release\Dominio.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Dominio\obj\Release\Dominio.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Dominio\obj\Release\Dominio.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Dominio\bin\Release\Dominio.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Dominio\bin\Release\Dominio.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Dominio\obj\Release\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Dominio\obj\Release\Dominio.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Dominio\obj\Release\Dominio.pdb

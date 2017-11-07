@@ -1,0 +1,231 @@
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\ApplicationInsights.config
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.exe
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.exe.config
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.rsp
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csi.exe
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csi.rsp
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.AppContext.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.exe
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.exe.config
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.rsp
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.dll.config
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Antlr3.Runtime.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Dominio.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.SqlServer.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Infra.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Web.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Newtonsoft.Json.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Helpers.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Mvc.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Optimization.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Razor.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\WebGrease.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Dominio.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Infra.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.SqlServer.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Web.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Helpers.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Mvc.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Optimization.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Razor.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Antlr3.Runtime.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Newtonsoft.Json.xml
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Web.MVC\bin\Bibliotecas.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\ApplicationInsights.config
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.exe
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.exe.config
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.rsp
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csi.exe
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csi.rsp
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.AppContext.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.exe
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.exe.config
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.rsp
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.dll.config
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Antlr3.Runtime.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Dominio.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.SqlServer.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Infra.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Web.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Newtonsoft.Json.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Helpers.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Mvc.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Optimization.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Razor.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\WebGrease.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Bibliotecas.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Dominio.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Infra.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.SqlServer.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Web.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Helpers.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Mvc.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Optimization.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Razor.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Antlr3.Runtime.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\bin\Newtonsoft.Json.xml
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\ApplicationInsights.config
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.exe
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.exe.config
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csc.rsp
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csi.exe
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\csi.rsp
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.exe
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.exe.config
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\vbc.rsp
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.dll.config
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Web.MVC.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Antlr3.Runtime.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Bibliotecas.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Dominio.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Infra.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Newtonsoft.Json.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Helpers.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Mvc.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Optimization.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Razor.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\WebGrease.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Bibliotecas.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Dominio.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Infra.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Helpers.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Mvc.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Optimization.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.Razor.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\bin\Newtonsoft.Json.xml
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.csprojResolveAssemblyReference.cache
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Web.MVC\obj\Debug\Web.MVC.pdb

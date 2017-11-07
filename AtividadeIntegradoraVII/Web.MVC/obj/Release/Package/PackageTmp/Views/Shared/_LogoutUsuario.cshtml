@@ -1,0 +1,19 @@
+﻿<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js"></script>
+</head>
+<nav>
+    <div class="row">
+        <div class="col-xs-6 text-left">
+            <div class="logo">
+                <a href="#">
+                    <img src="~/Imagens/logo.png" alt="Logo" class="img-responsive">
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-6 text-right">
+            <div class="name-user">Bem vindo, @Session["Nome"]</div>
+            <a id="logout" class="btn-logout" href="@Url.Action("Index","Login")">Sair</a>
+        </div>
+    </div>
+</nav>

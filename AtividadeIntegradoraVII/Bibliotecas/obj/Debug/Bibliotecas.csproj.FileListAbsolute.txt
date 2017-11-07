@@ -1,0 +1,14 @@
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Bibliotecas\bin\Debug\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Bibliotecas\bin\Debug\Bibliotecas.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.pdb
+C:\Computacao\Ciência da Computacão\Integradora\Nova Integradora\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\bin\Debug\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\bin\Debug\Bibliotecas.pdb
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.csprojResolveAssemblyReference.cache
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.dll
+C:\Computacao\Ciência da Computacão\INTEGRADROSCRUM FINAL\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\bin\Debug\Bibliotecas.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\bin\Debug\Bibliotecas.pdb
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.dll
+C:\Users\Joao Pedro\Documents\integradorascrum-final\AtividadeIntegradoraVII\Bibliotecas\obj\Debug\Bibliotecas.pdb

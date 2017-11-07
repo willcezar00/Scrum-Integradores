@@ -1,0 +1,12 @@
+﻿.btn {
+    width: 100% !important;
+    color: #333333;
+    font-size: 18px !important;
+    border: 1px solid #c6c2c2 !important;
+    border-radius: 25px !important;
+    height: 50px !important;
+}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn{
+    color: #333333;
+    background-color: #fff ;
+}

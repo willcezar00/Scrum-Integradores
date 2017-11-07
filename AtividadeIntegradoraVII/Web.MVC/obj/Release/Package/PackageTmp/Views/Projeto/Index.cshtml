@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<<head>
+    <meta charset="utf-8">
+    <title>Scrum</title>
+    <link rel="icon" href="@Url.Content("~Imagens/Logo.png")">
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+
+<body>
+    <div class="container">
+        @{Html.RenderPartial("~/Views/Shared/_LogoutUsuario.cshtml");}
+        <main>
+            <div class="til-page">Projetos</div>
+
+            <div class="row">
+                @for (int i = 0; i < 10; i++)
+                {
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="box-projeto">
+                            <div class="box-til"><span class="box-status corVerde"></span>Projeto 1</div>
+                            <div class="clearfix"></div>
+                            <div class="box-info">
+                                <div><span class="box-des">Status:</span> Aguardando Início</div>
+                                <div><span class="box-des">Início:</span> 01/01/2017</div>
+                                <div><span class="box-des">Términio:</span> 10/01/2017</div>
+                                <div><span class="box-des">Programador(es):</span> joão Fernan asdf af f sfasf  ergtrh  rh  des <br> José Mauro</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <button type="button" class="btn btn-editar"><img class="icon-btn" src="~/Imagens/icon-pause.png">Pausar</button>
+                                    <!--Botao play-->
+                                    <!--<button type="button" class="btn btn-analise"><img class="icon-btn" src="images/icon-play.png">Iniciar</button>-->
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <button type="button" class="btn btn-excluir">Concluir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </main>
+    </div>
+</body>
