@@ -1,4 +1,4 @@
-# Scrum - Trabalho de Integradores
+# Scrum - Trabalho de Integradora
 
 <h4><b>Ferramentas utilizadas :</b></h3>
 <hr>
