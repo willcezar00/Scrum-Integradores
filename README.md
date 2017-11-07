@@ -10,9 +10,9 @@
 <h4><b> Objetivo:</b></h4>
 <hr>
 
-<p>Construir uma aplicação para o gerenciamento de projetos de uma pequena empresa de software. O Software teria distinção entre programadores e gerentes, aonde o gerentes de projetos poderia designar tarefas e prazos para os programadores.</p>
+<p>Construir uma aplicação para o gerenciamento de projetos de uma pequena empresa de software. O Software teria distinção entre programadores e gerentes, aonde o gerente de projeto poderia designar tarefas e prazos para os programadores.</p>
 
 <h4><b>Metodologia</b></h4>
 <hr>
 <p>O  Projeto foi desenvolvido em conjunto com a turma 2014/01 de Ciência da Computação da Universidade José do Rosario Vellano.
-<p>Foram Utilizadas  métodologias de desenvolvimentos agéis como o Scrum, para a maior eficiência do projeto. A equipe foi dividada em times, sendo eles: Comunicação, projeto, construção e teste.
+<p>para a maior eficiência do projeto, foram utilizadas  métodologias de desenvolvimentos agéis como o Scrum. A equipe foi dividada em times, sendo eles: Comunicação, projeto, construção e teste.
