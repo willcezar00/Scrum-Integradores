@@ -15,4 +15,4 @@
 <h4><b>Metodologia</b></h4>
 <hr>
 <p>O  Projeto foi desenvolvido em conjunto com a turma 2014/01 de Ciência da Computação da Universidade José do Rosario Vellano.
-<p>para a maior eficiência do projeto, foram utilizadas  métodologias de desenvolvimentos agéis como o Scrum. A equipe foi dividada em times, sendo eles: Comunicação, projeto, construção e teste.
+<p>para a maior eficiência do projeto, foram utilizadas  metodologias de desenvolvimentos agéis como o Scrum. A equipe foi dividada em times, sendo eles: Comunicação, projeto, construção e teste.
